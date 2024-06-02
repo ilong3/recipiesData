@@ -65,7 +65,7 @@ import * as cheerio from "cheerio";
 
   // Create table if it doesn't exist (replace with your column names and types)
   db.run(
-    `CREATE TABLE IF NOT EXISTS products (title TEXT, ingredients TEXT, ratings REAL)`
+    `CREATE TABLE IF NOT EXISTS products (title , ingredients , ratings )`
   );
 
   try {
